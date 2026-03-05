@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=EB+Garamond:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #d8d2c3;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-family: 'EB Garamond', serif;
+}
+
+.card {
+  width: 1200px;
+  background: #efe6d6;
+  padding: 60px;
+  border-radius: 6px;
+  position: relative;
+
+  /* parchment texture feel */
+  background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 6px 6px;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+}
+
+.left {
+  flex: 1.1;
+}
+
+.right {
+  flex: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Title */
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 60px;
+  margin: 0;
+  color: #5b1c1c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Subtitle */
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  margin: 20px 0 5px 0;
+  color: #4a2c2c;
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 3px;
+  width: 250px;
+  background: #b89b5e;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* List */
+ul {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 18px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+strong {
+  font-weight: 700;
+}

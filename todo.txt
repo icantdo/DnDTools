@@ -1,0 +1,215 @@
+# 1. Combat & UI Management
+
+This section is the showcase of the platform. When users open the app, they should see a smooth and polished combat management experience.
+
+---
+
+## UI Polish & Bloodied Mechanic
+
+### What We Will Do:
+
+We will modernize the Streamlit interface. The most logical approach is to add **three different themes**:
+
+* **Tech / Cyberpunk theme** (for futuristic settings)
+* **Old School theme** (classic tabletop vibe)
+* **Simple theme** (clean and minimal)
+
+We will visually highlight the **is_bloodied** state (when HP drops below half) using elements like:
+
+* Red border around character card
+* Blood drop icon
+* Visual emphasis indicators
+
+We will also add:
+
+* Action counter
+* Bonus Action counter
+* Reaction counter
+
+### Why We’re Doing It:
+
+During combat, the DM (Dungeon Master) must be able to quickly read the screen and instantly see who still has what available.
+
+---
+
+### Tier Distribution
+
+**Free:**
+
+* Standard UI
+* Basic HP and initiative tracking
+* Standard counters
+
+**Member:**
+
+* Exclusive dark/light themes
+* Visual dice animations
+* Advanced combat filters
+
+---
+
+## Dynamic Combat Narrator (Combat Logger)
+
+### What We Will Do:
+
+We will log background damage and status changes during combat.
+At the end of the fight, we’ll use AI to generate an epic narrative summary.
+
+### Why We’re Doing It:
+
+This allows DMs to instantly share a polished, cinematic combat recap on Discord — creating viral word-of-mouth growth for the platform.
+
+---
+
+### Tier Distribution
+
+**Free:**
+
+* System logs only
+  (Plain text like: “Goblin took 5 damage.”)
+
+**Member:**
+
+* One-click epic story generation at combat end via Gemini API
+
+---
+
+# 2. AI Content Generation (AI Generators)
+
+This is where users will gladly pay $3 — and where your API costs are justified.
+
+---
+
+## Advanced Loot & Smart Treasure System
+
+### What We Will Do:
+
+We will enhance the existing loot generator by adding:
+
+* Estimated Gold Value
+* Required Crafting Materials
+* Suggested CR (Challenge Rating) drop source
+
+Additionally, after combat ends, the system will instantly generate thematic loot based on the defeated monster type.
+
+### Why We’re Doing It:
+
+DMs often find items but get stuck on:
+
+* “How much would this sell for?”
+* “What materials are required to craft this?”
+
+These extra layers of detail make your app significantly more competitive.
+
+---
+
+### Tier Distribution
+
+**Free:**
+
+* Only 3 basic item generations per day
+* No price estimate
+* No material list
+* No CR information
+
+**Member:**
+
+* Unlimited generation
+* Price estimation
+* Crafting materials list
+* Monster-specific dynamic generation (Smart Treasure fully unlocked)
+
+---
+
+## CR-Based Dungeon & Monster Generator
+
+### What We Will Do:
+
+The user simply says:
+
+> “Create a CR 5 swamp-themed boss and its room.”
+
+Gemini will instantly generate:
+
+* Monster stat block
+* Room traps
+* Environmental atmosphere
+* Balanced abilities
+
+### Why We’re Doing It:
+
+When players unexpectedly go somewhere unplanned, this becomes the DM’s biggest lifesaver.
+
+---
+
+### Tier Distribution
+
+**Free:**
+
+* Random selection from SRD (free rules) monsters
+* No AI-generated content
+
+**Member:**
+
+* Fully AI-generated, balanced monsters
+* Custom abilities
+* Detailed dungeon rooms
+* Unlimited generation
+
+---
+
+# 3. Data & Cloud
+
+This is where we move beyond the local JSON structure.
+
+---
+
+## Campaign & Party Cloud Synchronization
+
+### What We Will Do:
+
+We will store:
+
+* Created parties
+* Combat sessions
+* Generated loot
+
+inside a cloud database.
+
+### Why We’re Doing It:
+
+People don’t want their data to disappear when:
+
+* They close the browser
+* They switch devices
+* They log in from their phone
+
+For a $3 SaaS product, secure and persistent data is a fundamental promise.
+
+---
+
+### Tier Distribution
+
+**Free:**
+
+* Local browser storage (Local / Session)
+* Data disappears if tab closes or device changes
+* Only 1 party can be saved
+
+**Member:**
+
+* Cloud storage
+* Unlimited party creation
+* Unlimited encounter saves
+* Digital vault for storing generated items
+
+---
+
+If you’d like, I can also:
+
+* Turn this into a polished pitch deck version
+* Refine it into a product roadmap
+* Convert it into a Patreon tier page description
+* Or restructure it as a SaaS landing page copy
+
+Just tell me the format you need.

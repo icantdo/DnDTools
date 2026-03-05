@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Icebound Coronet of the Silent King",
+    "item_type": "Wondrous Item",
+    "subtype": "Circlet",
+    "rarity": "Uncommon",
+    "requires_attunement": true,
+    "attunement_requirement": null,
+    "description": "While wearing this coronet, which is crafted from unmelting 'true ice' and etched with silver runes, you gain the following benefits: \n\n**Glacial Fortitude.** You have resistance to cold damage. Additionally, you and your belongings are immune to the effects of extreme cold as described in the Dungeon Master's Guide.\n\n**Frost-Touch.** You know the *Ray of Frost* cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (your choice when you attune to the item).\n\n**Flash Freeze.** As an action, you can touch a body of water and freeze a 10-foot-square area of it. The ice is 6 inches thick and can support the weight of a Medium creature. The ice melts naturally after 1 hour if the temperature is above freezing.",
+    "properties": [
+      "Resistance to Cold Damage",
+      "Survival in Extreme Cold",
+      "Cantrip (Ray of Frost)",
+      "Utility (Freeze Water)"
+    ],
+    "curse": null,
+    "lore": "Long ago, before the glaciers retreated and the world grew warm, the Kingdom of Vaelen-Heim stood at the crown of the world. Its royalty wore circlets of 'true ice'—fragments of the first frost that never melted. When the kingdom was swallowed by the advancing ice sheets, these coronets were lost to time. To wear one now is to carry a fragment of a kingdom that the sun forgot, granting the wearer the same chilling authority once held by the frost-kings of old."
+  }
+]
