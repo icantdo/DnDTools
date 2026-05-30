@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run *)",
+      "Bash(python3 C:/Users/Mustafa/.claude/plugins/marketplaces/cartographer-marketplace/plugins/cartographer/skills/cartographer/scripts/scan-codebase.py . --format json)",
+      "Bash(python C:/Users/Mustafa/.claude/plugins/marketplaces/cartographer-marketplace/plugins/cartographer/skills/cartographer/scripts/scan-codebase.py . --format json)",
+      "PowerShell($cmds = @\\(\"uv\",\"python\",\"python3\",\"py\"\\); foreach \\($c in $cmds\\) { $r = Get-Command $c -ErrorAction SilentlyContinue; if \\($r\\) { \"$c -> $\\($r.Source\\)\" } })",
+      "PowerShell(foreach \\($c in @\\(\"uv\",\"python\",\"python3\",\"py\"\\)\\) { try { $r = Get-Command $c -ErrorAction Stop; Write-Output \"$c -> $\\($r.Source\\)\" } catch { Write-Output \"$c -> NOT FOUND\" } })",
+      "Bash(echo \"EXIT:$?\")",
+      "Read(//tmp/**)",
+      "Bash(python -c ' *)",
+      "Bash(python \"C:\\\\Users\\\\Mustafa\\\\AppData\\\\Local\\\\Temp\\\\analyze.py\")",
+      "PowerShell($scan = \"$env:TEMP\\\\scan.json\"; python \"C:\\\\Users\\\\Mustafa\\\\.claude\\\\plugins\\\\marketplaces\\\\cartographer-marketplace\\\\plugins\\\\cartographer\\\\skills\\\\cartographer\\\\scripts\\\\scan-codebase.py\" . --format json | Out-File -FilePath $scan -Encoding utf8; Write-Output \"EXIT:$LASTEXITCODE size:$\\(\\(Get-Item $scan\\).Length\\)\")",
+      "PowerShell(\\(Get-Date\\).ToUniversalTime\\(\\).ToString\\(\"yyyy-MM-ddTHH:mm:ssZ\"\\))",
+      "Bash(python -m py_compile app.py config.py loot_creator/ui.py loot_creator/generator.py)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Mustafa\\AppData\\Local\\Temp"
+    ]
+  }
+}

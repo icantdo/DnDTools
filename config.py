@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_MODEL = "gemini-3-flash-preview"
+GEMINI_MODEL = "gemma-4-31b-it"
 
 DATA_DIR = "data"
 SAVED_ITEMS_FILE = os.path.join(DATA_DIR, "saved_items.json")
